@@ -176,7 +176,7 @@ h1 {
   margin: 24px;
 }
 span {
-  color: red;
+    color: #E55473;
 }
 
 /* hot deal styles */
@@ -221,3 +221,37 @@ justify-content: center;
 margin: 240px auto;
 }
 
+/* footer section styles */
+
+.footer-container{
+width: 2200px;
+height: 200px;
+text-align: center;
+font-size: 48px;
+font-weight: 800;
+background-color: #111010;
+margin-top: 29px;
+margin-bottom: 29px ;
+}
+
+.footer-info1{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 65% 0;
+color: rgba(255, 255, 255, 0.90);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+margin-top: 35px;
+margin-bottom: 35px ;
+}
+
+.footer-info2{
+color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+margin-top: 24px;
+margin-bottom: 24px ;
+}
