@@ -1,8 +1,9 @@
+/* common section styles */
+
 body {
   font-family: "Lato", sans-serif;
 }
 
-/* hero section styles */
 
 * {
   margin: 0;
@@ -10,15 +11,62 @@ body {
   border: none;
 }
 
-.flower-shop {
-  width: 1920px;
-  height: 850px;
-  
+.flower-header-container {
+  width: 1130px;
+  margin: 0px auto;
 }
-.hero-section {
-  background: rgba(229, 84, 115, 0.1);
-  
+
+main .flower-header-container{
+    margin-top: 100px;
+
 }
+
+/* header section styles */
+
+.header{
+    width: 100vw;
+    background: rgba(229, 84, 115, 0.10);
+    overflow: hidden;
+
+}
+
+.banner-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-title{
+    font-size: 50px;
+    font-weight: 600;
+    color: #272727;
+}
+
+.banner-img {
+    width: 480px;
+    padding: 55px;
+    
+  }
+
+  .banner-description {
+    width: 634px;
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    font-weight: 400;
+    margin: 25px 0;
+  }
+  .btn {
+    padding: 15px 25px;
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+    background: #e55473;
+    color: white;
+    cursor: pointer;
+  }
+
+  /* header section end */
 
 .hero {
   padding-left: 240px;
@@ -27,41 +75,9 @@ body {
   align-items: center;
 }
 
-.hero-txt {
-    text-align: left;
-  }
 
-h1 {
-  display: flex;
-  width: 708px;
-  color: #272727;
-  font-size: 80px;
-  font-weight: 800;
-}
 
-.hero-p {
-  display: flex;
-  width: 634px;
-  color: rgba(39, 39, 39, 0.6);
-  font-size: 18px;
-  font-weight: 400;
-  margin-top: 32px;
-  margin-bottom: 32px;
-}
-.btn {
-  padding: 20px 43px;
-  gap: 10px;
-  border-radius: 8px;
-  background: #e55473;
-  color: white;
-}
 
-.hero-img {
-  width: 635px;
-  height: 800px;
-  margin-top: 50px;
-  
-}
 
 /* feature section styles */
 
@@ -98,20 +114,15 @@ h1 {
 }
 
 .featured-img-container {
-  display: flex;
-  padding-left: 200px;
-  padding-right: 200px;
-  left: 976px;
-  top: 0px;
-  margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
 
 .featured-img-box {
-  width: 464px;
-  height: 605px;
-  left: 488px;
-  top: 0px;
-  margin: 24px;
+    width: 75%;
+    height: 400px;
+    padding: 20px 20px;
 }
 
 .img-bg {
@@ -279,7 +290,7 @@ span {
 /* footer section styles */
 
 .footer-container {
-  width: 70%;
+  width: 80%;
   height: 330px;
   text-align: center;
   background-color: #111010;
