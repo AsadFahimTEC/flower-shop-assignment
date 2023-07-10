@@ -154,10 +154,13 @@ background: rgba(167, 33, 98, 0.15);
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .insta-img {
-    margin: 24px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
   }
 
 /* latest deals styles */
