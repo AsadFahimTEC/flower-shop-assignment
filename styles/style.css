@@ -10,6 +10,11 @@ body {
   width: auto;
   height: auto;
 }
+
+.flower-shop {
+  width: 1920px;
+  height: 100%;
+}
 .hero-section {
   background: rgba(229, 84, 115, 0.1);
 }
@@ -93,10 +98,12 @@ h1 {
 
 .featured-img-container {
   display: flex;
-  width: 464px;
-  height: 605px;
+  padding-left: 200px;
+  padding-right: 200px;
   left: 976px;
   top: 0px;
+  /* background-color: #65585a; */
+  margin: auto;
 }
 
 .featured-img-box {
@@ -104,16 +111,14 @@ h1 {
   height: 605px;
   left: 488px;
   top: 0px;
+  margin: 24px;
 }
 
 .img-bg {
   width: 464px;
   height: 538px;
-  left: 0px;
-  top: 0px;
+  border-radius: 300px 300px 0px 0px;
   background: rgba(167, 33, 98, 0.15);
-  border-top-left-radius: 300px;
-  border-top-right-radius: 300px;
 }
 .img-cap {
   text-align: center;
@@ -127,14 +132,23 @@ h1 {
 }
 
 .featured-img {
-  width: 370px;
-  height: 370px;
+  margin-top: 110px;
+  margin-left: 70px;
+}
+
+.featured-img-2 {
+  margin-top: 110px;
+  margin-left: 70px;
+}
+
+.featured-img-3 {
+  margin-top: 65px;
+  margin-left: 70px;
 }
 
 /* instagram section styles */
 .insta-container {
-  text-align: center;
-  align-items: center;
+    text-align: center;
 }
 
 .insta-img-holder {
@@ -144,21 +158,40 @@ h1 {
 }
 
 .insta-img {
-  margin: 24px;
-}
+    margin: 24px;
+  }
 
 /* latest deals styles */
 
-.deals {
-  width: 1440px;
-  height: 449px;
-  background: url(/assets/Rectangle9.png);
+.latest-deal {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  border-radius: 8px;
+  margin: auto;
+}
+
+section {
+  align-items: center;
+  text-align: center;
+  margin: auto;
 }
 
 .deal-box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
+  height: 449px;
+  border-radius: 8px;
+  margin: auto;
+  padding-left: 240px;
+}
+
+.deals {
+  padding-top: 80px;
+  width: 100%;
+  height: 100%;
+  background: url(/assets/Rectangle9.png);
+  background-repeat: no-repeat;
 }
 
 .in-text {
@@ -176,7 +209,7 @@ h1 {
   margin: 24px;
 }
 span {
-    color: #E55473;
+  color: #e55473;
 }
 
 /* hot deal styles */
@@ -184,16 +217,17 @@ span {
 .hot-deal {
   width: 100%;
   display: flex;
-  border-radius: 8px;
-  background: rgba(229, 84, 115, 0.05);
   justify-content: center;
   align-items: center;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+ 
 }
 
 .hot-text {
-  text-align: center;
-  margin-top: auto;
-  margin-bottom: auto;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .hot-img {
@@ -202,56 +236,58 @@ span {
 }
 
 .hot-deal-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 24px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-bottom: 24px;
 }
 
 /* delivery section styles */
 
-.delivery-container{
-width: 1440px;
-height: 320px;
-border-radius: 8px;
-background: rgba(39, 39, 39, 0.05);
-display: flex;
-align-items: center;
-justify-content: center;
-margin: 240px auto;
+.delivery-container {
+  width: 1440px;
+  height: 340px;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 240px;
+}
+
+.delivery{
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
 }
 
 /* footer section styles */
 
-.footer-container{
-width: 2200px;
-height: 200px;
-text-align: center;
-font-size: 48px;
-font-weight: 800;
-background-color: #111010;
-margin-top: 29px;
-margin-bottom: 29px ;
+.footer-container {
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  background-color: #111010;
+  margin-top: 25px;
 }
 
-.footer-info1{
-display: flex;
-align-items: center;
-justify-content: center;
-width: 65% 0;
-color: rgba(255, 255, 255, 0.90);
-text-align: center;
-font-size: 18px;
-font-weight: 400;
-margin-top: 35px;
-margin-bottom: 35px ;
+.footer-title{
+    font-size: 48px;
+    font-weight: 800;
+    padding: 45px;
+}
+.footer-info1 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.75);
+  margin-top: 20px 0;
 }
 
-.footer-info2{
-color: rgba(255, 255, 255, 0.40);
-text-align: center;
-font-size: 16px;
-font-weight: 400;
-margin-top: 24px;
-margin-bottom: 24px ;
+.footer-info2 {
+  color: rgba(255, 255, 255, 0.35);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 60px;
 }
